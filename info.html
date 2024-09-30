@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>controls/info</title>
+   
+    <style>
+        /* Ensure the content is centered and scrolling is enabled */
+        body {
+            font-family: Arial, sans-serif; /* Use Arial font for all text */
+            margin: 25px;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: flex-start; /* Align items to the top */
+            height: 100vh; /* Full viewport height */
+            overflow: auto; /* Ensure scrolling is possible */
+        }
+
+       
+
+        .content {
+            max-width: 1600px; /* Double the width to accommodate for the zoom out */
+            text-align: center; /* Center text within the content */
+        }
+
+        h1 {
+            font-size: 60px;
+            margin-top: 30px;
+            color: #333; /* Optional: Add some color */
+        }
+
+        h1.main-title {
+            font-size: 90px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 30px;
+            text-align: left; /* Align paragraphs to the left for readability */
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="content">
+        <h1 class="main-title"><i><strong>controls/info!!!11!1!1</strong></i></h1>
+
+        <h1>controls</h1>  
+        <p>
+            the controls are quite simple:
+            <br><br>
+            a, A, and left arrow to go left
+            <br>
+            d, D, and right arrow to go right
+            <br>
+            w, W, and up arrow to jump
+            <br>
+            r to reset yourself to begining
+            <br><br>
+            and then theres \ for dev mode that just shows your coordinates at all times for those stupid little nerds (i need
+          it to actually make the platforms, im not a stupid little nerd).
+          <br><br>
+            thats literally it.
+        </p>
+
+        <h1>game mechanics</h1>  
+        <p>
+            there are some silly little quirks to this game (most are bugs that i didnt care enough to fix so i turned them into features)
+            <br><br>
+            platforms:
+            <br>
+            when it comes to platforms, theres a couple different types. theres normal platforms (the normal brown looking ones),
+            the teleport platforms (purple), and slippery platforms (blue).
+            <br>normal platforms are just ones that if you go on top youll stand and if you hit the bottom you hit your head.
+            <br>teleport platforms are a bit goofy. if you touch any part of these platforms (most parts, the hitboxes are buggy as hell),
+            you will teleport on top of them instantly.
+            <br>the slippery platforms are self explaining. you go on them, friction is bad. these things are really buggy though, but it
+            makes the game harder, so im not fixing them.
+            <br><br>
+            theres also this silly thing (bug that i didnt wanna fix so its a cool mechanic now) called infinite coyote time. if you know what
+            coyote time is, youd know its that little period of time in platformers where you can still jump even after you fell off.
+            this game has that, but different. this game has <i>infinite</i> coyote time. when you walk off a platform without jumping, you
+            can jump at any time after. the only quirk is that you can only jump once.
+            <br><br>
+            lastly, (another bug that im keeping), if you have too much downwards momentum, you will just flat out phase through platforms.
+            this is because you move too fast for the game to realize youre on a platform, but it just adds to the unforgiving nature,
+            so im keeping it. i might fix it eventually (ex. when the game gets too long to where having this is just unfair), but for now
+            its a mechanic.
+        </p>
+
+        <h1>tips</h1>
+        <p>
+            tele-plats:
+            <br><br>
+            to restate, if you touch <i>anywhere</i> on these platforms, you go to the top. that means you can touch the side, bottom,
+            literally anywhere, and youre on top. some jumps are impossible without this. keep an eye out for these purple platforms.
+         
+          <br><br>
+          slippy-plats:
+<br><br>
+          these are slippery. i know, its crazy right? they are actually not buggy (they still are a little, but thats aside the point). 
+          what they do now is that they have acceleration and friction, meaning that you have to hold the other direction
+          to slow down faster, and to make most jumps you have to go to the end of the platform and speed up to max.
+         
+          <br><br>
+         
+          coyote time:
+
+<br><br>
+          this is VERY useful, and actually nessicary for some jumps (ex. the 5 jumps after the staircase). if a jump seems to far
+          to be able to make, it probably requires coyote time. coyote time is infinite in this game. use this
+          to your advantage
+         
+         
+          <br><br>
+         
+         terminal velocity:
+         <br><br>
+         your terminal velocity is actually quite low, as you are very small compared to the world you live in.
+         ill leave it up to you to figure out what that means. but basically, you can still move in the air, but 
+         you fall (relativly) slow. use this to your advantage.
+         <br><br>
+        </p>
+   
+ 
+ 
+<h1>
+  updates (_.0_ are minor updates, _._0 are major updates)
+  </h1>
+ 
+  <p>
+    <b> update 1.1 (_/_/24):</b>
+<br><br>
+    added lerp (I ❤️ LERP) <br>
+    ⠀lerp is the thing in code that makes the camera ease instead of directly following<br>
+    made floor better 💀<br>
+    fixed slippy-plats<br>
+    added (lots) more gameplay<br>
+    added controls/info page (i know its crazy right) <br>
+    added arial font (thank jesus the old one looked awful)<br>
+    added a -Y speed cap<br>
+    added lore<br>
+    added text<br>
+    fixed the fazing through platform thing<br>
+
+    started working on "fun" things for the future (theyre in the code, just not used yet)<br>
+
+
+    <br><br>
+
+    <b>update 1.02 (probably about 9/1/24)</b>
+    <br><br>
+    added slippy-plats<br>
+    added floor 💀<br>
+    made 5 jumps easier<br>
+    added color-coordinated platforms<br>
+    added camera movement<br>
+                               
+
+   
+    <br><br>
+<b>update 1.01 (???):</b>
+    <br><br>
+    made the game possible
+    <br><br>
+<b>update 1.0 (???):</b>
+   
+    <br><br>
+   
+    made the game (it was impossible)
+  </p>
+
+  <h1>
+    lore
+    </h1>
+
+    <p>
+        yes, there is lore.
+<br><br>
+<b>origin</b>
+<br><br>
+Buare Kringlefrop, the son of Blue Kringlefrop and Square Kringlefrop (maiden name was 
+Fitzgerald), is the player character. you control him to help him get to his final goal, 
+the platform with the gray bar.
+
+<br><br>
+that is all i will say. the lore is planned out fully, but i will only tell you this. the rest you guys
+have to figure out. have fun.
+
+<br><br>
+
+also, ORANGE CIRCLE IS NOT CANNON.
+    </p>
+     
+     
+     
+  </div>
+</body>
+</html>
